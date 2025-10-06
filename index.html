@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divisor de Contas - Sistema de Gerenciamento de Despesas Compartilhadas</title>
+    <link rel="stylesheet" href="styles/landing.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="40" height="40" rx="8" fill="#646cff"/>
+                        <path d="M20 10L28 15V25L20 30L12 25V15L20 10Z" stroke="white" stroke-width="2" fill="none"/>
+                        <line x1="20" y1="10" x2="20" y2="30" stroke="white" stroke-width="2"/>
+                        <line x1="12" y1="15" x2="28" y2="25" stroke="white" stroke-width="2"/>
+                        <line x1="28" y1="15" x2="12" y2="25" stroke="white" stroke-width="2"/>
+                    </svg>
+                    <span>Divisor de Contas</span>
+                </div>
+                <nav class="nav">
+                    <a href="#about">Sobre</a>
+                    <a href="#features">Recursos</a>
+                    <a href="#how-it-works">Como Funciona</a>
+                    <a href="demo.html" class="btn-demo">Demonstração</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Gerencie Despesas Compartilhadas de Forma Simples e Justa</h1>
+                <p class="hero-subtitle">Sistema completo para organizar gastos entre grupos, eliminar conflitos e manter tudo transparente</p>
+                <div class="hero-buttons">
+                    <a href="demo.html" class="btn btn-primary">Experimentar Demonstração</a>
+                    <a href="#about" class="btn btn-secondary">Saiba Mais</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">O que é este sistema?</h2>
+            <p class="section-description">
+                O Divisor de Contas é uma aplicação web completa desenvolvida para simplificar e organizar
+                o gerenciamento de despesas compartilhadas entre grupos de pessoas. É a solução perfeita
+                para quem divide moradia, faz viagens em grupo, ou precisa administrar gastos coletivos
+                de forma justa e transparente.
+            </p>
+
+            <div class="use-cases">
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                            <polyline points="9 22 9 12 15 12 15 22"/>
+                        </svg>
+                    </div>
+                    <h3>Moradores</h3>
+                    <p>Aluguel, contas de luz, água, internet, mercado</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                        </svg>
+                    </div>
+                    <h3>Grupos de Viagem</h3>
+                    <p>Hospedagem, alimentação, transporte, passeios</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+                            <circle cx="9" cy="7" r="4"/>
+                            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+                            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                        </svg>
+                    </div>
+                    <h3>Famílias</h3>
+                    <p>Contas da casa, compras do mês, despesas comuns</p>
+                </div>
+
+                <div class="use-case-card">
+                    <div class="use-case-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <rect x="2" y="7" width="20" height="14" rx="2" ry="2"/>
+                            <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/>
+                        </svg>
+                    </div>
+                    <h3>Colegas de Trabalho</h3>
+                    <p>Almoços, coffee breaks, eventos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="section section-alt">
+        <div class="container">
+            <h2 class="section-title">Recursos Principais</h2>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+                            <circle cx="12" cy="7" r="4"/>
+                        </svg>
+                    </div>
+                    <h3>Cadastro de Pessoas</h3>
+                    <p>Registre todos os participantes com salários individuais para divisão proporcional justa</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                            <polyline points="22,6 12,13 2,6"/>
+                        </svg>
+                    </div>
+                    <h3>Categorias Personalizadas</h3>
+                    <p>Organize gastos em categorias como Alimentação, Transporte, Moradia e muito mais</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <line x1="12" y1="1" x2="12" y2="23"/>
+                            <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>
+                        </svg>
+                    </div>
+                    <h3>Registro de Despesas</h3>
+                    <p>Registre qualquer gasto com identificação de quem pagou e observações detalhadas</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <circle cx="12" cy="12" r="10"/>
+                            <polyline points="12 6 12 12 16 14"/>
+                        </svg>
+                    </div>
+                    <h3>Divisão Inteligente</h3>
+                    <p>Escolha entre divisão igualitária ou proporcional baseada nos salários</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+                        </svg>
+                    </div>
+                    <h3>Pagamentos Diretos</h3>
+                    <p>Registre quando uma pessoa paga diretamente para outra mantendo histórico</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/>
+                        </svg>
+                    </div>
+                    <h3>Controle em Tempo Real</h3>
+                    <p>Veja instantaneamente quem deve e quem tem a receber com visualização clara</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="section">
+        <div class="container">
+            <h2 class="section-title">Como Funciona na Prática</h2>
+
+            <div class="example-box">
+                <h3>Exemplo de Uso</h3>
+                <div class="example-content">
+                    <div class="example-step">
+                        <strong>Situação:</strong> 3 amigos morando juntos
+                    </div>
+                    <div class="example-step">
+                        <strong>Cadastro:</strong> Ana, Bruno e Carlos são registrados no sistema
+                    </div>
+                    <div class="example-step">
+                        <strong>Despesas do mês:</strong>
+                        <ul>
+                            <li>Ana paga aluguel: R$ 1.500</li>
+                            <li>Bruno paga mercado: R$ 600</li>
+                            <li>Carlos paga internet: R$ 120</li>
+                        </ul>
+                    </div>
+                    <div class="example-step result">
+                        <strong>Resultado automático:</strong>
+                        <ul>
+                            <li>Sistema calcula que cada um deve R$ 740 no total</li>
+                            <li>Ana já pagou R$ 1.500 → deve receber R$ 760</li>
+                            <li>Bruno pagou R$ 600 → deve pagar R$ 140</li>
+                            <li>Carlos pagou R$ 120 → deve pagar R$ 620</li>
+                        </ul>
+                    </div>
+                    <div class="example-step solution">
+                        <strong>Solução:</strong> Bruno paga R$ 140 para Ana, Carlos paga R$ 620 para Ana
+                    </div>
+                </div>
+            </div>
+
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <h4>Elimina Conflitos</h4>
+                    <p>Cálculos automáticos e precisos com transparência total</p>
+                </div>
+                <div class="benefit-card">
+                    <h4>Economiza Tempo</h4>
+                    <p>Interface intuitiva com registro rápido de gastos</p>
+                </div>
+                <div class="benefit-card">
+                    <h4>Previne Esquecimentos</h4>
+                    <p>Todas as despesas ficam registradas com histórico completo</p>
+                </div>
+                <div class="benefit-card">
+                    <h4>Decisões Melhores</h4>
+                    <p>Veja padrões de gastos e planeje melhor os orçamentos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Pronto para simplificar suas despesas compartilhadas?</h2>
+            <p>Experimente agora e veja como é fácil manter as contas em dia</p>
+            <a href="demo.html" class="btn btn-primary btn-lg">Acessar Demonstração</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Divisor de Contas. Sistema de gerenciamento de despesas compartilhadas.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="/scripts/landing.js"></script>
+</body>
+</html>
